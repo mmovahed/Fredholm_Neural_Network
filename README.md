@@ -105,7 +105,7 @@ print(f"Max error: {torch.max(error).item():.4e}")
 ## 🧭 What’s Next?
 
 This toy example can be extended to:
-- Arbitrary kernel functions \( K(x,z) \)
+- Arbitrary kernel functions \( $K(x,z)$ \)
 - Nonlinear Fredholm integral equations
 - Boundary value problems (via transformation to integral form)
 - 2D problems using boundary integral formulations (e.g., for elliptic PDEs)
